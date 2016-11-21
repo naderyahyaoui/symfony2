@@ -1,0 +1,6 @@
+bs_front_office_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: BsFrontOfficeBundle:Default:index }
+bs_front_office:
+    path:     /test
+    defaults: { _controller: BsFrontOfficeBundle:Default:Test }

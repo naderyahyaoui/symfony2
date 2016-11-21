@@ -1,0 +1,11 @@
+bs_back_office:
+    resource: "@BsBackOfficeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+bs_front_office:
+    resource: "@BsFrontOfficeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
